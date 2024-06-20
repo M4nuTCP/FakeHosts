@@ -16,11 +16,11 @@ def fakepacket(packet, simulated_ips, mac_address):
         if packet.pdst in simulated_ips:
             print(f"Dirección IP manipulada: {packet.pdst}")
             reply = ARP(op=2,
-                        hwsrc="00:20:91:da:eb:69",  <- Cambiar la OWI de esta MAC
+                        hwsrc="00:20:91:da:eb:69",  <- Cambiar la OUI de esta MAC
                         psrc=packet.pdst,  
                         hwdst=mac_address, 
                         pdst=packet.pdst)  
-            pkt = Ether(dst=mac_address, src="00:20:91:da:eb:69") / reply   <- Cambiar la OWI de la mac "src"
+            pkt = Ether(dst=mac_address, src="00:20:91:da:eb:69") / reply   <- Cambiar la OUI de la mac "src"
             sendp(pkt, iface="eth0")
 ```
 
