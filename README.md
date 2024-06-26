@@ -24,7 +24,7 @@ def fakepacket(packet, simulated_ips, mac_address):
             sendp(pkt, iface="eth0")
 ```
 
-Para ver todas las OWI ejecute el siguiente comando:
+Para ver todas las OUI ejecute el siguiente comando:
 
 ```
 macchanger -l
