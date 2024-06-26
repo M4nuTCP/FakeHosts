@@ -4,7 +4,7 @@ FakeHosts es una herramienta diseñada para simular múltiples IPs en una red, i
 
 # Documentación
 
-📚Blog: https://m4nu.gitbook.io/m4nu/mis-proyectos/fakehosts
+https://m4nu.gitbook.io/m4nu/mis-proyectos/fakehosts
 
 # POC:
 
