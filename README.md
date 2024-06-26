@@ -2,6 +2,10 @@
 
 FakeHosts es una herramienta diseñada para simular múltiples IPs en una red, imitando máquinas de la NSA (o de cualquier otra organización configurable). Su propósito es dificultar los mapeos ARP dentro de la red, complicando así la tarea de los atacantes para mapear la red. La herramienta cubre únicamente los escaneos ARP. Se recomienda crear un servicio en una máquina dentro de la red y dejarlo funcionando.
 
+# Documentación
+
+📚Blog: https://m4nu.gitbook.io/m4nu/mis-proyectos/fakehosts
+
 # POC:
 
 ![image](https://github.com/M4nuTCP/FakeHosts/assets/96147300/d48b2f82-7dca-4019-bbcf-c25ef3ccd436)
